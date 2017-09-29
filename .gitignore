@@ -1,0 +1,15 @@
+.idea/
+buld
+node_modules
+npm-debug.log
+
+# Files Windows
+Thumbs.db
+ehthumbs.db
+Desctop.ini
+*.cabgit
+.msi
+*.msm
+*.msp
+*.lnk
+$RECYCLE.BIN/
