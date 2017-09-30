@@ -2815,3 +2815,23 @@ ul, ol {
       background: #424242; }
     .nav__link:last-child:after {
       display: none; }
+
+.hero {
+  min-height: 59px;
+  padding: 174px 0;
+  text-align: center;
+  color: #fff;
+  background: #ccc url("../images/hero-bg.jpg") center/cover no-repeat; }
+  .hero__about {
+    font-family: "helvetica-neue-bold";
+    font-size: 3rem;
+    line-height: 1; }
+  .hero__title {
+    margin-top: 0;
+    margin-bottom: 27px;
+    font-family: "helvetica-neue-light"; }
+  .hero .button--text-uppercase {
+    padding: 21px 41px;
+    border-radius: 8px;
+    font-weight: bold;
+    letter-spacing: 1px; }
