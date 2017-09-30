@@ -97,6 +97,23 @@ npm i gulp.spritesmith --save-dev
 ```
 
 ```
+27. В файл package.json  вписываем **"start": "gulp"** для запуска галпа по 
+команде **npm start**.
+
+28. Ставим пакет для работы с иконками и нормалайзер
+```
+npm install font-awesome normalize.scss --save
+```
+29. В главном файле SCSS делаем подключение:
+```
+@import "../../node_modules/font-awesome/scss/font-awesome";
+@import "../../node_modules/normalize.scss/normalize";
+```
+30. Чтобы иконки отображались в браузере Firefox, в хедере главного HTML файла вписываем строчку
+```
+link(rel="stylesheet" type="text/css" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css")
+```
+
 
 
 
