@@ -43,8 +43,8 @@ gulp.task('sprite', function (cb) {
         imgPath: '../images/sprite.png', // Добавлена строчка
         cssName: 'sprite.scss'
     }));
-    return spriteData.img.pipe(gulp.dest('build/images/'));
-    return spriteData.css.pipe(gulp.dest('source/styles/global/'));
+    spriteData.img.pipe(gulp.dest('build/images/'));
+    spriteData.css.pipe(gulp.dest('source/styles/global/'));
     cb();
 });
 
